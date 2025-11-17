@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Fundavita</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+     <!-- ============ HEADER FUNDAVITA (restaurado y compatible) ============ -->
+<header class="header-fundavita">
+  <div class="container topbar">
+    <div class="brand">
+      <a href="index.html"><img src="img/logof.png" alt="Logo Fundación Fundavita"></a>
+    </div>
+
+    <nav aria-label="Menú principal" class="main-nav">
+      <ul class="menu">
+        <li class="has-submenu">
+          <a href="#">La Fundación</a>
+          <ul class="submenu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="historia.html">Historia</a></li>
+          </ul>
+        </li>
+
+        <li class="has-submenu">
+          <a href="#">Programas</a>
+          <ul class="submenu">
+            <li><a href="apoyo.html">Apoyo al paciente</a></li>
+            <li><a href="salud.html">Tecnología en salud</a></li>
+          </ul>
+        </li>
+
+        <li class="has-submenu">
+          <a href="#">Investigación</a>
+          <ul class="submenu">
+            <li><a href="proyectos.html">Proyectos actuales</a></li>
+            <li><a href="pub.html">Publicaciones</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+          </ul>
+        </li>
+
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="merch.html" class="cta">🛍️ Tienda Online</a></li>
+      </ul>
+    </nav>
+
+
+    <!-- Espacio para íconos de redes (vacío por ahora) -->
+    <div class="header-social" aria-hidden="true"></div>
+  </div>
+  <!-- ===== BOTÓN HAMBURGUESA ===== -->
+<button class="hamburger" id="hamburger">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+
+<!-- ===== MENÚ MÓVIL ===== -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Inicio</a>
+  <a href="historia.html">Historia</a>
+  <a href="#">Investigación</a>
+  <a href="#">Programas</a>
+  <a href="contacto.html">Contacto</a>
+  <a href="merch.html">🛍️ Tienda Online</a>
+</div>
+
+</header>
+
+
+  <!-- SECCIÓN PRINCIPAL -->
+  <section class="contact-hero">
+    <div class="container">
+      <h1>Contacto</h1>
+      <p>Tu mensaje puede hacer la diferencia. Comunicate con nosotros para colaborar, consultar o sumarte a las campañas de Fundavita.</p>
+    </div>
+  </section>
+
+  <!-- FORMULARIO DE CONTACTO -->
+  <section class="contact-form">
+    <div class="container">
+      <div class="form-grid">
+        <form action="#" method="post">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" placeholder="Tu correo" required>
+
+          <label for="asunto">Asunto</label>
+          <input type="text" id="asunto" name="asunto" placeholder="Motivo del mensaje" required>
+
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribí tu mensaje aquí..." required></textarea>
+
+          <button type="submit" class="cta">Enviar mensaje</button>
+        </form>
+
+        <div class="contact-info">
+          <h2>Información de contacto</h2>
+          <p><strong>Dirección:</strong> Perú 1486, Ciudad de Mendoza, Argentina</p>
+          <p><strong>Teléfono:</strong> +54 261 5999440</p>
+          <p><strong>Email:</strong> info@fundavita.org.ar</p>
+
+          <div class="social">
+            <a href="https://www.facebook.com/fundavita" target="_blank">📘 Facebook</a><br>
+            <a href="https://www.instagram.com/fundavitaok" target="_blank">📸 Instagram</a><br>
+            <a href="https://www.youtube.com/@FundavitaOK" target="_blank">▶️ YouTube</a>
+          </div>
+
+          <div class="mapa">
+            <iframe
+              src="https://www.google.com/maps/place/Fundavita/@-32.8820188,-68.8334523,16.88z/data=!4m6!3m5!1s0x967e091736b800af:0x59befa3a9f71da4c!8m2!3d-32.8817815!4d-68.8337238!16s%2Fg%2F1q62jznkn?entry=ttu&g_ep=EgoyMDI1MTExMC4wIKXMDSoASAFQAw%3D%3D"
+              width="100%" height="280" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOTÓN FLOTANTE WHATSAPP -->
+  <a href="https://api.whatsapp.com/send/?phone=5492613330115&text=Hola+FUNDAVITA%2C+mi+nombre+es&type=phone_number&app_absent=0" class="floating-whatsapp" target="_blank" title="Chateá con nosotros">
+    <img src="img/whatsapp_logo_icon_186881.png" alt="WhatsApp">
+  </a>
+
+
+  <a href="https://link.mercadopago.com.ar/fundavita" class="floating-donate" target="_blank">
+  💜 Donar
+  <script src="script.js"></script>
+</a>
+  <!-- ================= FOOTER ================= -->
+<footer class="footer-fundavita">
+  <div class="container footer-content">
+  
+
+    <!-- Enlaces -->
+    <ul class="footer-links">
+      <li><a href="prensa.html">Centro de Prensa</a></li>
+      <li><a href="alianzas.html">Alianzas</a></li>
+      <li><a href="novedades.html">Novedades</a></li>
+      <li><a href="terminos.html">Términos y Condiciones</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+
+    <!-- Redes sociales -->
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/company/fundavita---fundaci-n-por-la-vida-y-contra-el-c-ncer/?viewAsMember=true" target="_blank"><img src="img/icons/linkedin.svg" alt="LinkedIn"></a>
+      <a href="https://www.instagram.com/fundavita/" target="_blank"><img src="img/icons/instagram.svg" alt="Instagram"></a>
+      <a href="https://www.facebook.com/Fundavita" target="_blank"><img src="img/icons/facebook.svg" alt="Facebook"></a>
+      <a href="https://x.com/fundavita" target="_blank"><img src="img/icons/x.svg" alt="X"></a>
+      <a href="https://www.youtube.com/@fundavita" target="_blank"><img src="img/icons/youtube.svg" alt="YouTube"></a>
+    </div>
+  </div>
+</footer>
+
